@@ -1,4 +1,4 @@
-job('node-js-application-DSL') {
+job('nodejs application DSL') {
     description('Creating an application using node.js and jenkins with help of groovy')
 
     scm {
