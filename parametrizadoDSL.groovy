@@ -20,6 +20,7 @@ job('job-using-dsl') {
   
     steps {
     	shell("bash jobscript.sh")
+	shell("echo 'Hello world from console D:'")
     }
   
     publishers {
