@@ -2,9 +2,9 @@ job('nodejs application DSL') {
     description('Creating an application using node.js and jenkins with help of groovy')
 
     scm {
-        git('https://github.com/macloujulian/nodejsapp.git', 'master') { node -> 
+        git('https://github.com/macloujulian/nodejsapp.git', 'master') { node ->
             node / gitConfigName('Elliot')
-            node / gitCongifEmail('elliot@fsociety.com')
+            node / gitConfigEmail('elliot@fsociety.com')
         }
     }
 
