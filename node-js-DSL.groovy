@@ -17,7 +17,7 @@ job('nodejs application DSL') {
     }
 
     steps {
-        shell('echo "========EXECUTING PROCESS========')
+        shell('echo "========EXECUTING PROCESS========"')
         shell('npm install')
     }
 }
