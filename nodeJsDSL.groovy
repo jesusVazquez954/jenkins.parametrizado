@@ -4,7 +4,7 @@ job('nodejs application DSL') {
     scm {
         git('https://github.com/macloujulian/nodejsapp.git', 'master') { node -> 
             node / gitConfigName('Elliot')
-            node / gitCongifEmail('elliot@fsociety.com')
+            node / gitConfigEmail('elliot@fsociety.com')
         }
     }
 
